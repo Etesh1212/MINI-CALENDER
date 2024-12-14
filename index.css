@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1.5);
+    border: none;
+
+
+
+}
+
+.month{
+    background-color: red;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 ;
+    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.weekday{
+    margin-bottom: 10px;
+
+}
+
+.day{
+    font-size: 5rem;
+    font-weight: bold;
+   border-radius: 10px 10px 0 0 ;
+    margin-bottom: 10px;
+}
+
+.year{
+    margin-bottom: 10px;
+}
